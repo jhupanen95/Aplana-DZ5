@@ -3,7 +3,6 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-
 import java.io.IOException;
 
 public class GetRequest {
@@ -11,7 +10,7 @@ public class GetRequest {
     static String sURL = "http://speller.yandex.net/services/spellservice";
 
     public static void main(String[] args) {
-        System.out.println(request("програмный интерфейс ПРИЛоЖЕНИЯ"));
+        System.out.println(request("програмный интерфейс ПРИЛоЖЕНИЯ!"));
     }
 
     public static String request(String str){
@@ -37,6 +36,4 @@ public class GetRequest {
             }
         }
     }
-
-
 }
